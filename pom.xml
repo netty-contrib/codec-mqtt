@@ -23,9 +23,9 @@
   </parent>
 
   <groupId>io.netty.contrib</groupId>
-  <artifactId>netty-template-parent</artifactId>
+  <artifactId>netty-codec-mqtt-parent</artifactId>
   <version>5.0.0.Final-SNAPSHOT</version>
-  <name>Netty/Codec/Template Parent</name>
+  <name>Netty/Codec/MQTT Parent</name>
   <packaging>pom</packaging>
   <url>https://netty.io/</url>
   <description>
@@ -48,9 +48,9 @@
   <inceptionYear>2021</inceptionYear>
 
   <scm>
-    <url>https://github.com/netty-contrib/template</url>
-    <connection>scm:git:https://github.com/netty-contrib/template.git</connection>
-    <developerConnection>scm:git:https://github.com/netty-contrib/template.git</developerConnection>
+    <url>https://github.com/netty-contrib/codec-mqtt</url>
+    <connection>scm:git:https://github.com/netty-contrib/codec-mqtt.git</connection>
+    <developerConnection>scm:git:https://github.com/netty-contrib/codec-mqtt.git</developerConnection>
     <tag>HEAD</tag>
   </scm>
 
@@ -75,7 +75,7 @@
   </properties>
 
   <modules>
-    <module>template</module>
+    <module>codec-mqtt</module>
     <module>examples</module>
     <module>benchmarks</module>
   </modules>
@@ -281,9 +281,21 @@
         <scope>test</scope>
       </dependency>
       <dependency>
+        <groupId>org.junit.jupiter</groupId>
+        <artifactId>junit-jupiter-params</artifactId>
+        <version>5.8.1</version>
+        <scope>test</scope>
+      </dependency>
+      <dependency>
         <groupId>org.assertj</groupId>
         <artifactId>assertj-core</artifactId>
         <version>3.21.0</version>
+        <scope>test</scope>
+      </dependency>
+      <dependency>
+        <groupId>org.mockito</groupId>
+        <artifactId>mockito-core</artifactId>
+        <version>4.1.0</version>
         <scope>test</scope>
       </dependency>
     </dependencies>
