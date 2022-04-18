@@ -15,23 +15,21 @@
  */
 package io.netty.contrib.handler.codec.mqtt;
 
-import io.netty.buffer.ByteBuf;
-import io.netty.buffer.ByteBufAllocator;
-import io.netty.buffer.UnpooledByteBufAllocator;
-import io.netty.channel.Channel;
-import io.netty.channel.ChannelHandlerContext;
-import io.netty.handler.codec.DecoderException;
-import io.netty.handler.codec.EncoderException;
-import io.netty.util.Attribute;
-import io.netty.util.CharsetUtil;
-import io.netty.util.ReferenceCountUtil;
+import io.netty5.buffer.ByteBuf;
+import io.netty5.buffer.ByteBufAllocator;
+import io.netty5.buffer.UnpooledByteBufAllocator;
+import io.netty5.channel.Channel;
+import io.netty5.channel.ChannelHandlerContext;
+import io.netty5.handler.codec.DecoderException;
+import io.netty5.handler.codec.EncoderException;
+import io.netty5.util.Attribute;
+import io.netty5.util.CharsetUtil;
+import io.netty5.util.ReferenceCountUtil;
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.function.Executable;
 import org.mockito.ArgumentCaptor;
-import org.mockito.Mock;
-import org.mockito.MockitoAnnotations;
 import org.mockito.invocation.InvocationOnMock;
 import org.mockito.stubbing.Answer;
 

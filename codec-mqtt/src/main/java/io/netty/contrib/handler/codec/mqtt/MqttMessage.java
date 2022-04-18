@@ -15,8 +15,8 @@
  */
 package io.netty.contrib.handler.codec.mqtt;
 
-import io.netty.handler.codec.DecoderResult;
-import io.netty.util.internal.StringUtil;
+import io.netty5.handler.codec.DecoderResult;
+import io.netty5.util.internal.StringUtil;
 
 /**
  * Base class for all MQTT message types.

@@ -15,12 +15,12 @@
  */
 package io.netty.contrib.handler.codec.mqtt;
 
-import io.netty.util.internal.ObjectUtil;
-import io.netty.util.internal.StringUtil;
+import io.netty5.util.internal.StringUtil;
 
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
+import java.util.Objects;
 
 /**
  * Payload for MQTT unsuback message as in V5.
@@ -40,7 +40,7 @@ public final class MqttUnsubAckPayload {
     }
 
     public MqttUnsubAckPayload(short... unsubscribeReasonCodes) {
-        ObjectUtil.checkNotNull(unsubscribeReasonCodes, "unsubscribeReasonCodes");
+        Objects.requireNonNull(unsubscribeReasonCodes, "unsubscribeReasonCodes");
 
         List<Short> list = new ArrayList<Short>(unsubscribeReasonCodes.length);
         for (Short v: unsubscribeReasonCodes) {
@@ -50,11 +50,11 @@ public final class MqttUnsubAckPayload {
     }
 
     public MqttUnsubAckPayload(Iterable<Short> unsubscribeReasonCodes) {
-        ObjectUtil.checkNotNull(unsubscribeReasonCodes, "unsubscribeReasonCodes");
+        Objects.requireNonNull(unsubscribeReasonCodes, "unsubscribeReasonCodes");
 
         List<Short> list = new ArrayList<Short>();
         for (Short v: unsubscribeReasonCodes) {
-            ObjectUtil.checkNotNull(v, "unsubscribeReasonCode");
+            Objects.requireNonNull(v, "unsubscribeReasonCode");
             list.add(v);
         }
         this.unsubscribeReasonCodes = Collections.unmodifiableList(list);

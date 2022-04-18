@@ -15,8 +15,8 @@
  */
 package io.netty.contrib.handler.codec.mqtt;
 
-import io.netty.util.CharsetUtil;
-import io.netty.util.internal.StringUtil;
+import io.netty5.util.CharsetUtil;
+import io.netty5.util.internal.StringUtil;
 
 import java.util.Arrays;
 

@@ -15,18 +15,18 @@
  */
 package io.netty.contrib.handler.codec.mqtt.heartBeat;
 
-import io.netty.bootstrap.ServerBootstrap;
-import io.netty.channel.Channel;
-import io.netty.channel.ChannelInitializer;
-import io.netty.channel.ChannelOption;
-import io.netty.channel.EventLoopGroup;
-import io.netty.channel.MultithreadEventLoopGroup;
-import io.netty.channel.nio.NioHandler;
-import io.netty.channel.socket.SocketChannel;
-import io.netty.channel.socket.nio.NioServerSocketChannel;
+import io.netty5.bootstrap.ServerBootstrap;
+import io.netty5.channel.Channel;
+import io.netty5.channel.ChannelInitializer;
+import io.netty5.channel.ChannelOption;
+import io.netty5.channel.EventLoopGroup;
+import io.netty5.channel.MultithreadEventLoopGroup;
+import io.netty5.channel.nio.NioHandler;
+import io.netty5.channel.socket.SocketChannel;
+import io.netty5.channel.socket.nio.NioServerSocketChannel;
 import io.netty.contrib.handler.codec.mqtt.MqttDecoder;
 import io.netty.contrib.handler.codec.mqtt.MqttEncoder;
-import io.netty.handler.timeout.IdleStateHandler;
+import io.netty5.handler.timeout.IdleStateHandler;
 
 import java.util.concurrent.TimeUnit;
 

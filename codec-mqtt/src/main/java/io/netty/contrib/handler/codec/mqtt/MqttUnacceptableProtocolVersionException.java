@@ -15,7 +15,7 @@
  */
 package io.netty.contrib.handler.codec.mqtt;
 
-import io.netty.handler.codec.DecoderException;
+import io.netty5.handler.codec.DecoderException;
 
 /**
  * A {@link MqttUnacceptableProtocolVersionException} which is thrown when

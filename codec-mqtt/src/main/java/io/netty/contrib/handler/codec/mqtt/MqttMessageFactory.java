@@ -15,8 +15,8 @@
  */
 package io.netty.contrib.handler.codec.mqtt;
 
-import io.netty.buffer.ByteBuf;
-import io.netty.handler.codec.DecoderResult;
+import io.netty5.buffer.ByteBuf;
+import io.netty5.handler.codec.DecoderResult;
 
 /**
  * Utility class with factory methods to create different types of MQTT messages.

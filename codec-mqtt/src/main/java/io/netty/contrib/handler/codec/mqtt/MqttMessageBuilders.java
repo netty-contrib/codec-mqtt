@@ -15,16 +15,16 @@
  */
 package io.netty.contrib.handler.codec.mqtt;
 
-import io.netty.buffer.ByteBuf;
-import io.netty.buffer.Unpooled;
+import io.netty5.buffer.ByteBuf;
+import io.netty5.buffer.Unpooled;
 import io.netty.contrib.handler.codec.mqtt.MqttProperties.MqttPropertyType;
-import io.netty.util.CharsetUtil;
+import io.netty5.util.CharsetUtil;
 
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
-import static io.netty.util.internal.ObjectUtil.checkPositive;
+import static io.netty5.util.internal.ObjectUtil.checkPositive;
 
 public final class MqttMessageBuilders {
 

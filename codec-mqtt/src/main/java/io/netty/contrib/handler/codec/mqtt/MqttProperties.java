@@ -15,7 +15,7 @@
  */
 package io.netty.contrib.handler.codec.mqtt;
 
-import io.netty.util.collection.IntObjectHashMap;
+import io.netty5.util.collection.IntObjectHashMap;
 
 import java.util.ArrayList;
 import java.util.Collection;

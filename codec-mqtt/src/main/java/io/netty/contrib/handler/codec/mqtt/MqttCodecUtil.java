@@ -15,10 +15,10 @@
  */
 package io.netty.contrib.handler.codec.mqtt;
 
-import io.netty.channel.ChannelHandlerContext;
-import io.netty.handler.codec.DecoderException;
-import io.netty.util.Attribute;
-import io.netty.util.AttributeKey;
+import io.netty5.channel.ChannelHandlerContext;
+import io.netty5.handler.codec.DecoderException;
+import io.netty5.util.Attribute;
+import io.netty5.util.AttributeKey;
 
 import static io.netty.contrib.handler.codec.mqtt.MqttConstant.MIN_CLIENT_ID_LENGTH;
 

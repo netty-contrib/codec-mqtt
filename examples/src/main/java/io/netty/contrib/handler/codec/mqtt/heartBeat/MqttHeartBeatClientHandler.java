@@ -15,8 +15,8 @@
  */
 package io.netty.contrib.handler.codec.mqtt.heartBeat;
 
-import io.netty.channel.ChannelHandler;
-import io.netty.channel.ChannelHandlerContext;
+import io.netty5.channel.ChannelHandler;
+import io.netty5.channel.ChannelHandlerContext;
 import io.netty.contrib.handler.codec.mqtt.MqttConnectMessage;
 import io.netty.contrib.handler.codec.mqtt.MqttConnectPayload;
 import io.netty.contrib.handler.codec.mqtt.MqttConnectVariableHeader;
@@ -25,8 +25,8 @@ import io.netty.contrib.handler.codec.mqtt.MqttMessage;
 import io.netty.contrib.handler.codec.mqtt.MqttMessageType;
 import io.netty.contrib.handler.codec.mqtt.MqttProperties;
 import io.netty.contrib.handler.codec.mqtt.MqttQoS;
-import io.netty.handler.timeout.IdleStateEvent;
-import io.netty.util.ReferenceCountUtil;
+import io.netty5.handler.timeout.IdleStateEvent;
+import io.netty5.util.ReferenceCountUtil;
 
 public class MqttHeartBeatClientHandler implements ChannelHandler {
 

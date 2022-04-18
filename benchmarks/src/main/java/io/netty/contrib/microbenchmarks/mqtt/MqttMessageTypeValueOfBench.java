@@ -16,7 +16,7 @@
 package io.netty.contrib.microbenchmarks.mqtt;
 
 import io.netty.contrib.handler.codec.mqtt.MqttMessageType;
-import io.netty.microbench.util.AbstractMicrobenchmark;
+import io.netty5.microbench.util.AbstractMicrobenchmark;
 import org.openjdk.jmh.annotations.Benchmark;
 import org.openjdk.jmh.annotations.BenchmarkMode;
 import org.openjdk.jmh.annotations.Measurement;

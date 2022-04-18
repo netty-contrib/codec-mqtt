@@ -15,7 +15,7 @@
  */
 package io.netty.contrib.handler.codec.mqtt;
 
-import io.netty.util.internal.StringUtil;
+import io.netty5.util.internal.StringUtil;
 
 /**
  * Variable Header of the {@link MqttPublishMessage}

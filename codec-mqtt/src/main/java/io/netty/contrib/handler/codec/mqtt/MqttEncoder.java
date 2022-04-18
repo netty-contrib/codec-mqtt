@@ -15,20 +15,20 @@
  */
 package io.netty.contrib.handler.codec.mqtt;
 
-import io.netty.buffer.ByteBuf;
-import io.netty.buffer.ByteBufAllocator;
-import io.netty.buffer.Unpooled;
-import io.netty.channel.ChannelHandler;
-import io.netty.channel.ChannelHandlerContext;
-import io.netty.handler.codec.EncoderException;
-import io.netty.handler.codec.MessageToMessageEncoder;
-import io.netty.util.internal.EmptyArrays;
+import io.netty5.buffer.ByteBuf;
+import io.netty5.buffer.ByteBufAllocator;
+import io.netty5.buffer.Unpooled;
+import io.netty5.channel.ChannelHandler;
+import io.netty5.channel.ChannelHandlerContext;
+import io.netty5.handler.codec.EncoderException;
+import io.netty5.handler.codec.MessageToMessageEncoder;
+import io.netty5.util.internal.EmptyArrays;
 
 import java.util.List;
 
-import static io.netty.buffer.ByteBufUtil.reserveAndWriteUtf8;
-import static io.netty.buffer.ByteBufUtil.utf8Bytes;
-import static io.netty.buffer.ByteBufUtil.utf8MaxBytes;
+import static io.netty5.buffer.ByteBufUtil.reserveAndWriteUtf8;
+import static io.netty5.buffer.ByteBufUtil.utf8Bytes;
+import static io.netty5.buffer.ByteBufUtil.utf8MaxBytes;
 import static io.netty.contrib.handler.codec.mqtt.MqttCodecUtil.getMqttVersion;
 import static io.netty.contrib.handler.codec.mqtt.MqttCodecUtil.isValidClientId;
 import static io.netty.contrib.handler.codec.mqtt.MqttCodecUtil.setMqttVersion;
