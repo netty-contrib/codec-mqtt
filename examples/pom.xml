@@ -24,5 +24,11 @@
             <artifactId>netty5-handler</artifactId>
             <version>${netty.version}</version>
         </dependency>
+        <dependency>
+            <!-- TODO remove once this project has been migrated to Buffer -->
+            <groupId>io.netty</groupId>
+            <artifactId>netty-buffer</artifactId>
+            <version>4.1.76.Final</version>
+        </dependency>
     </dependencies>
 </project>
