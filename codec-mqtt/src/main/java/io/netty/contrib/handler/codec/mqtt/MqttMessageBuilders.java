@@ -15,8 +15,8 @@
  */
 package io.netty.contrib.handler.codec.mqtt;
 
-import io.netty5.buffer.ByteBuf;
-import io.netty5.buffer.Unpooled;
+import io.netty.buffer.ByteBuf;
+import io.netty.buffer.Unpooled;
 import io.netty.contrib.handler.codec.mqtt.MqttProperties.MqttPropertyType;
 import io.netty5.util.CharsetUtil;
 

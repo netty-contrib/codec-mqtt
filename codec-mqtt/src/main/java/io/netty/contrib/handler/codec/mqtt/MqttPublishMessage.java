@@ -15,9 +15,9 @@
  */
 package io.netty.contrib.handler.codec.mqtt;
 
-import io.netty5.buffer.ByteBuf;
-import io.netty5.buffer.ByteBufHolder;
-import io.netty5.buffer.ByteBufUtil;
+import io.netty.buffer.ByteBuf;
+import io.netty.buffer.ByteBufHolder;
+import io.netty.buffer.ByteBufUtil;
 
 /**
  * See <a href="https://public.dhe.ibm.com/software/dw/webservices/ws-mqtt/mqtt-v3r1.html#publish">MQTTV3.1/publish</a>

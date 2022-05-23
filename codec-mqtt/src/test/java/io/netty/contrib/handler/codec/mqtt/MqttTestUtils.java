@@ -15,7 +15,7 @@
  */
 package io.netty.contrib.handler.codec.mqtt;
 
-import io.netty5.buffer.ByteBufUtil;
+import io.netty.buffer.ByteBufUtil;
 
 import java.util.List;
 

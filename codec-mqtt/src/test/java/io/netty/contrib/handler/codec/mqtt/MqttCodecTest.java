@@ -15,9 +15,9 @@
  */
 package io.netty.contrib.handler.codec.mqtt;
 
-import io.netty5.buffer.ByteBuf;
-import io.netty5.buffer.ByteBufAllocator;
-import io.netty5.buffer.UnpooledByteBufAllocator;
+import io.netty.buffer.ByteBuf;
+import io.netty.buffer.ByteBufAllocator;
+import io.netty.buffer.UnpooledByteBufAllocator;
 import io.netty5.channel.Channel;
 import io.netty5.channel.ChannelHandlerContext;
 import io.netty5.handler.codec.DecoderException;
